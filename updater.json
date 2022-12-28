@@ -1,0 +1,19 @@
+{
+  "name": "Demo config file",
+  "global": {
+    "paths": {
+      "public": "public_html"
+    }
+  },
+  "include_special_names": {
+    "drafts": {
+      "design": "base"
+    },
+    "hlogin": {
+      "design": "base"
+    },
+    "example-directory": {
+      "design": "base"
+    }
+  }
+}

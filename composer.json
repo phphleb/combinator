@@ -1,5 +1,5 @@
 {
-    "name": "phphleb/combine",
+    "name": "phphleb/combinator",
     "description": "Component builder based on the UPDATER library",
     "type": "library",
     "license": "MIT",
