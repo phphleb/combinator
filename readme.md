@@ -1,6 +1,10 @@
 COMBINATOR
 =====================
 
+
+
+[![COMBINATOR LOGO](https://raw.githubusercontent.com/phphleb/combinator/0de1d4cc1243cd623f843f01073cf010453b3f1b/logo.png)](https://github.com/phphleb/combinator/tree/master)
+
 **Сборщик компонентов для библиотек фреймворка HLEB ([github.com/phphleb/hleb](https://github.com/phphleb/hleb))**
 
 При наличии установленных библиотек (компонентов), которые внедряются в проект или удаляются по образцу
