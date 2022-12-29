@@ -5,7 +5,7 @@
       "public": "public_html"
     }
   },
-  "include_special_names": {
+  "components": {
     "drafts": {
       "design": "base"
     },
