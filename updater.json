@@ -13,14 +13,14 @@
       "design": "base"
     },
     "sitemapgen": {
-      "design": "base",
-      "env": {
-        "domain": "https://my-site.com",
-        "inRobots": true
-      }
+      "design": "base"
     },
     "example-directory": {
       "design": "base"
     }
+  },
+  "environments": {
+    "siteMapDomain": "https://my-site.com",
+    "siteMapInRobots": true
   }
 }
