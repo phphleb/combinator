@@ -12,7 +12,8 @@
     "require": {
         "php": ">=7.1.0",
         "ext-readline": "*",
-        "phphleb/updater": "*"
+        "phphleb/updater": "*",
+        "ext-json": "*"
     },
     "minimum-stability": "dev"
 }

@@ -12,6 +12,13 @@
     "hlogin": {
       "design": "base"
     },
+    "sitemapgen": {
+      "design": "base",
+      "env": {
+        "domain": "https://my-site.com",
+        "inRobots": true
+      }
+    },
     "example-directory": {
       "design": "base"
     }

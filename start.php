@@ -87,12 +87,14 @@ function searchAllComponents(string $vendor = __DIR__ . '/../../', int $level = 
 function executeComponent(string $path, array $argv, string $configPath)
 {
     $config = prepareConfigData(trim($configPath, '/\\ .'));
+
     Data::setConfig($config);
 
     $info = $path . DIRECTORY_SEPARATOR . 'combinator-info.txt';
     if (file_exists($info)) {
         echo PHP_EOL . file_get_contents($info) . PHP_EOL;
     }
+
     require $path . DIRECTORY_SEPARATOR . 'start.php';
 }
 
