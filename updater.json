@@ -20,6 +20,7 @@
     }
   },
   "environments": {
+    "siteMapPublicDirectory": "public_html",
     "siteMapDomain": "https://my-site.com",
     "siteMapInRobots": true
   }
