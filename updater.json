@@ -1,27 +1,17 @@
 {
   "name": "Demo config file",
-  "global": {
-    "paths": {
-      "public": "public_html"
+  "directory": null,
+  "settings": {
+    "phphleb/demo-updater": {
+      "description": "External demonstration of adding/rolling back resources to a project.",
+      "settings": {
+        "demo-updater-design": {
+          "default": "light"
+        }
+      }
+    },
+    "example/library": {
+      "param": "value"
     }
-  },
-  "components": {
-    "drafts": {
-      "design": "base"
-    },
-    "hlogin": {
-      "design": "base"
-    },
-    "sitemapgen": {
-      "design": "base"
-    },
-    "example-directory": {
-      "design": "base"
-    }
-  },
-  "environments": {
-    "siteMapPublicDirectory": "public_html",
-    "siteMapDomain": "https://my-site.com",
-    "siteMapInRobots": true
   }
 }
