@@ -13,8 +13,7 @@
         "php": ">=8.2.0",
         "ext-readline": "*",
         "phphleb/updater": "*",
-        "ext-json": "*",
-        "phphleb/hleb": ">=2.0.0"
+        "ext-json": "*"
     },
     "autoload": {
         "psr-4": {
